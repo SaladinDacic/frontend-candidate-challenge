@@ -26,6 +26,7 @@ body {
 }
 .todoListApp button:hover {
   cursor: pointer;
+  background-color: #007db3;
 }
 .todoListApp .todoList {
   list-style: none;
@@ -43,3 +44,4 @@ body {
 ul.todoList {
   padding: 0;
 }
+

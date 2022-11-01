@@ -16,6 +16,9 @@ describe("TodoApp", () => {
     expect(screen.getByText("Buy milk")).toBeDefined();
     screen.getByTestId("todo0");
 
+    expect(screen.getByText("Buy bread")).toBeDefined();
+    screen.getByTestId("todo1");
+
     // TODO: Verify second todo
   });
   
